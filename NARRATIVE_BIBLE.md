@@ -205,6 +205,121 @@ Esta estructura no fija todavía número de niveles, duración ni escenas concre
 - Qué verdad concreta descubre el camino difícil.
 - Qué elementos quedan deliberadamente ambiguos.
 
+
+## 14. Identidad del protagonista — propuesta de desarrollo
+
+**Estado:** propuesta narrativa; todavía no es canon definitivo.
+
+### 14.1 Identidad inicial
+
+El protagonista despierta sin un nombre que pueda verificar. El sistema puede identificarlo mediante una designación temporal —por ejemplo, **ECHO-0**—, pero esa etiqueta no debe presentarse como su nombre verdadero. Es un identificador de trabajo para registros y diálogos, sujeto a aprobación.
+
+No se recomienda fijar todavía género, edad, rostro definitivo ni biografía completa. La presentación inicial debe permitir que el jugador proyecte parte de sí mismo en el personaje sin convertirlo en una figura vacía.
+
+### 14.2 Objetivo consciente
+
+Al comienzo, su objetivo es práctico: comprender el colapso, encontrar una salida y sobrevivir. No inicia la aventura buscando descubrir una identidad oculta. La necesidad de saber quién es nace de las contradicciones que encuentra.
+
+### 14.3 Rasgos de personalidad propuestos
+
+- Observador: examina el entorno antes de actuar.
+- Persistente: intenta resolver problemas incluso con información incompleta.
+- Capaz de justificar decisiones difíciles cuando cree que la supervivencia lo exige.
+- Vulnerable a la duda cuando sus recuerdos contradicen hechos verificables.
+
+Estos rasgos deben expresarse mediante acciones y elecciones, no solo mediante exposición en diálogos.
+
+### 14.4 Memoria fragmentada
+
+Los recuerdos no deben funcionar como coleccionables que explican todo de forma lineal. Cada fragmento puede contener:
+- una imagen o sonido;
+- una sensación o reacción física;
+- un dato verificable;
+- una interpretación inicial del protagonista;
+- una contradicción que solo se entiende más adelante.
+
+Algunos fragmentos pueden ser incompletos. La historia debe permitir distinguir entre recuerdo, registro externo e interpretación.
+
+## 15. La presencia interior — relación con el protagonista
+
+**Estado:** naturaleza ambigua aprobada; detalles siguientes propuestos.
+
+La presencia interior no debe presentarse inicialmente con un nombre propio ni con una apariencia estable. Puede manifestarse como una frase mental, una voz superpuesta, una figura reflejada o una escena que parece recordar el protagonista.
+
+Su relación con el protagonista evolucionará:
+
+1. **Familiaridad:** parece una parte normal del pensamiento, aunque algunas frases resultan extrañamente precisas.
+2. **Desacuerdo:** contradice decisiones o recuerdos sin explicar de dónde obtiene la información.
+3. **Intimidad incómoda:** utiliza detalles personales que el protagonista no recuerda haber compartido.
+4. **Confrontación:** plantea preguntas que obligan al jugador a revisar sus propias elecciones.
+5. **Ambigüedad crítica:** el jugador dispone de evidencias para varias interpretaciones, pero ninguna explicación se confirma prematuramente.
+
+La presencia no debe controlar las decisiones del jugador ni invalidarlas. Puede cuestionar, advertir, tentar o guardar silencio. La decisión final pertenece siempre al jugador.
+
+## 16. Relación narrativa entre protagonista, presencia interior y CLU
+
+La propuesta es que los tres representen fuerzas distintas:
+
+- **Protagonista:** voluntad consciente de sobrevivir y comprender.
+- **Presencia interior:** conflicto de identidad, memoria y autointerpretación.
+- **CLU:** fuerza externa que impone una visión del orden y del control sobre NOCTRYX.
+
+CLU puede insinuar que conoce al protagonista o que su despertar no fue accidental. Sin embargo, sus afirmaciones deben tratarse como declaraciones de un antagonista, no como hechos automáticamente fiables.
+
+La presencia interior y CLU no deben ser intercambiables. Si ambos cuestionan al protagonista, deben hacerlo desde motivos, lenguaje y objetivos diferentes. La conexión real entre ellos queda pendiente.
+
+## 17. Pistas narrativas y progresión de la duda — ejemplos propuestos
+
+| Fase | Pista observable | Interpretación inicial | Pregunta posterior |
+|---|---|---|---|
+| Despertar | Un registro muestra una hora anterior al supuesto inicio | Error del sistema | ¿Por qué existe actividad antes de despertar? |
+| Exploración | Una entidad reconoce un patrón del protagonista | Confusión o identificación equivocada | ¿Dónde pudo conocerlo? |
+| Primera prueba | La presencia anticipa una reacción | Intuición propia | ¿Cómo podía saberlo? |
+| Contradicción | Dos registros describen el mismo recuerdo de manera incompatible | Archivo corrupto | ¿Cuál de las versiones se alteró? |
+| Confrontación | CLU alude a una decisión que el protagonista no recuerda | Manipulación del enemigo | ¿Qué parte de esa afirmación puede verificarse? |
+
+Estos ejemplos son semillas narrativas, no escenas definitivas. Cada pista debe tener una explicación coherente dentro de la verdad final, aunque el jugador no la conozca todavía.
+
+## 18. La gran decisión desde la perspectiva del protagonista
+
+La elección entre retirada y verdad no debe formularse como «ser valiente o ser cobarde».
+
+La retirada puede ser una decisión razonable: el protagonista ha sufrido pérdidas, comprende que seguir puede destruir lo poco que conserva y decide proteger su existencia presente.
+
+Continuar implica aceptar que quizá la identidad descubierta no coincida con la persona que cree ser. El camino difícil no debe prometer felicidad, absolución ni una respuesta cómoda.
+
+El conflicto real es: **¿prefieres conservar una vida que puedes comprender o arriesgarla por una verdad que quizá no puedas aceptar?**
+
+## 19. Escena de referencia — primer diálogo interior
+
+**Estado:** muestra de tono; no es guion final.
+
+> **PRESENCIA:** ¿Recuerdas haber llegado aquí?
+>
+> **PROTAGONISTA:** Desperté aquí. Es diferente.
+>
+> **PRESENCIA:** ¿Lo es?
+>
+> **PROTAGONISTA:** Sé que estaba buscando una salida.
+>
+> **PRESENCIA:** No te pregunté qué estabas buscando.
+>
+> **PROTAGONISTA:** Entonces, ¿qué quieres?
+>
+> **PRESENCIA:** Que no confundas lo que recuerdas con lo que ocurrió.
+
+La escena debe ser breve y dejar una pregunta abierta. No debe explicar el misterio ni confirmar que la presencia sea una entidad independiente.
+
+## 20. Pendientes específicos del protagonista
+
+- Aprobar o descartar la designación temporal ECHO-0.
+- Definir presentación visual y grado de personalización.
+- Decidir si el protagonista habla con voz propia o si el jugador interpreta sus respuestas.
+- Definir qué acontecimiento cree recordar al despertar.
+- Establecer la verdad objetiva detrás de los recuerdos contradictorios.
+- Determinar qué sabe CLU y qué solo pretende saber.
+- Definir si la presencia interior puede aparecer fuera de pruebas y escenas narrativas.
+
 ## 13. Registro de versiones
 
 | Versión | Estado | Cambios |
