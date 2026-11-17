@@ -1,8 +1,8 @@
 # NOCTRYX: SYSTEM COLLAPSE
-## Biblia narrativa — versión 0.4
+## Biblia narrativa — versión 0.5
 
 **Estado:** diseño narrativo en desarrollo
-**Última decisión aprobada:** recuerdos de dos realidades incompatibles vinculados a una catástrofe recordada  
+**Última decisión aprobada:** recuerdos de dos realidades incompatibles, vínculo afectivo ambiguo y dilema moral entre salvar a una persona o a muchas  
 **Canon aprobado:** decisiones expresadas por la dirección del proyecto  
 **Pendiente:** nombres definitivos, cronología completa, motivaciones finales y desenlace detallado
 
@@ -493,13 +493,105 @@ El jugador no debe preguntarse únicamente «¿cuál de estos recuerdos es verda
 La respuesta final debe explicar la relación entre las dos líneas, la catástrofe y la identidad de ECHO-0. La naturaleza exacta de esa relación sigue pendiente de diseño y aprobación.
 
 
+
+## 25. La mujer de los recuerdos — vínculo afectivo ambiguo
+
+**Estado:** ambigüedad del vínculo aprobada por la dirección; identidad, historia y explicación objetiva pendientes.
+
+En la línea de recuerdos que parece pertenecer a una vida distinta aparece una mujer emocionalmente importante para ECHO-0. El protagonista experimenta hacia ella un vínculo profundo, pero los recuerdos no coinciden al definir qué relación tenían.
+
+Según el fragmento, parece haber sido:
+- su esposa, con recuerdos de una vida compartida;
+- su prometida, con una vida en común que todavía no había comenzado;
+- alguien cuyo vínculo con ECHO-0 no encaja con ninguna de esas dos versiones.
+
+Estas versiones deben sentirse personales y convincentes mientras permanecen incompatibles. No se debe confirmar que una sea la verdadera ni explicar la contradicción como un simple error de memoria. Tampoco se confirma todavía si todos los fragmentos describen a la misma persona en circunstancias distintas o si existe otra explicación.
+
+### 25.1 Lo que ECHO-0 siente y lo que recuerda
+
+La emoción puede ser clara aunque los datos biográficos no lo sean:
+- ECHO-0 siente que la conoce profundamente.
+- Puede recordar una promesa, una discusión, una rutina compartida o un futuro que esperaba construir.
+- El nombre, la historia común y la naturaleza exacta del vínculo pueden faltar o variar.
+- El jugador debe poder distinguir entre la intensidad emocional del recuerdo y la certeza de su contenido.
+
+La mujer no debe existir únicamente como motivación para el protagonista. Cuando la historia avance, deberá tener voluntad, deseos, decisiones y una perspectiva propia, incluso si el jugador solo accede a ella mediante recuerdos, registros o testimonios.
+
+### 25.2 Regla de misterio
+
+No revelar pronto si la mujer murió, sobrevivió, fue evacuada, desapareció o si el recuerdo de su pérdida corresponde a un acontecimiento real. La pregunta inicial no es solo «¿quién era ella?», sino «¿qué ocurrió y por qué ECHO-0 siente que todavía puede cambiarlo?».
+
+## 26. La catástrofe y el intento de evitar una muerte
+
+**Estado:** conexión dramática aprobada como dirección; detalles del acontecimiento pendientes.
+
+La catástrofe recordada puede estar ligada al intento de ECHO-0 de evitar la muerte de esa mujer. Algunos fragmentos sugieren que corría para salvarla; otros indican que intentaba llegar a un punto de evacuación o regresar por alguien. La secuencia y las causas siguen siendo inciertas.
+
+La historia debe mantener abiertas, al menos durante una parte importante del juego, varias posibilidades:
+- ECHO-0 intentaba salvarla y puso en riesgo a otras personas.
+- ECHO-0 decidió proteger a un grupo y no pudo regresar por ella.
+- ECHO-0 buscó una tercera solución y el intento tuvo consecuencias inesperadas.
+- Los recuerdos mezclan momentos, decisiones o resultados que todavía no comprendemos.
+
+Ninguna posibilidad queda establecida como verdad por aparecer en un recuerdo o por ser afirmada por CLU, la presencia interior u otro personaje.
+
+## 27. El dilema central — una vida frente a muchas
+
+**Estado:** dirección temática aprobada; escena, contexto y consecuencias concretas pendientes de diseño.
+
+La historia podrá presentar una decisión en la que ECHO-0 tenga la posibilidad de salvar a la mujer, pero hacerlo comprometa la supervivencia de un grupo. La alternativa sería proteger al grupo y aceptar que la oportunidad de salvarla podría perderse.
+
+El conflicto no debe reducirse a una prueba con respuesta correcta:
+- **Salvar a una persona:** puede ser un acto de amor, lealtad o reparación, pero pone a otros en peligro.
+- **Salvar a muchas personas:** puede ser un acto de responsabilidad, pero exige abandonar a alguien importante.
+- **Buscar otra salida:** puede requerir tiempo, recursos, pruebas o sacrificios; no debe garantizar que todos sobrevivan.
+
+Una tercera alternativa, cuando exista, deberá ganarse mediante exploración, información o decisiones previas. No será una solución perfecta escondida para premiar al jugador que adivine la intención del autor.
+
+La pregunta moral no es «¿eres héroe o villano?», sino: **«¿A quién estás dispuesto a sacrificar cuando no puedes salvar a todos, y cómo vivirás con esa decisión?»**
+
+### 27.1 Consecuencias sin marcador de moralidad
+
+No habrá una barra universal de bondad o maldad. Las consecuencias pueden afectar:
+- quién sobrevive, desaparece o queda en peligro;
+- la confianza de personajes y comunidades;
+- los recursos y sectores disponibles;
+- la información que ECHO-0 podrá conocer;
+- la forma en que otros interpretan la decisión;
+- los recuerdos y diálogos que se activan después.
+
+Los efectos pueden ser inmediatos o diferidos. Una decisión puede ser defendida por unos personajes y condenada por otros. El juego no debe dictar una sentencia moral definitiva mediante colores, etiquetas o mensajes de «buena elección» y «mala elección».
+
+## 28. CLU y la presencia interior frente al dilema
+
+**Estado:** función dramática propuesta, pendiente de aprobación en sus motivaciones específicas.
+
+El dilema permite diferenciar con mayor claridad a los tres focos del conflicto:
+
+- **ECHO-0** debe decidir desde lo que siente, recuerda, sabe y desconoce.
+- **La presencia interior** puede cuestionar si el protagonista intenta salvar a la mujer por amor, por culpa, por una promesa o por incapacidad de aceptar una pérdida. No debe conocer automáticamente la respuesta.
+- **CLU** puede defender que preservar el conjunto exige aceptar sacrificios individuales. Puede utilizar la decisión para poner a prueba o manipular a ECHO-0, pero sus argumentos no son la verdad moral del juego.
+
+CLU no debe ser simplemente «el villano que sacrifica a todos» ni ECHO-0 «el héroe que salva a quien ama». Ambos pueden justificar decisiones difíciles desde valores distintos y ambos pueden causar daño.
+
+## 29. Principios para desarrollar este arco
+
+1. La mujer debe tener personalidad y voluntad propias, no ser solo un premio, una motivación o una víctima.
+2. La ambigüedad de su relación con ECHO-0 debe apoyarse en pistas concretas y revisables.
+3. El jugador debe comprender los riesgos de cada opción, aunque no pueda prever todas las consecuencias.
+4. No se debe castigar automáticamente el amor ni glorificar automáticamente el sacrificio colectivo.
+5. Las consecuencias deben mantenerse en escenas, personajes y sistemas posteriores.
+6. Las decisiones deben reflejar valores y prioridades, no una puntuación moral oculta.
+7. La verdad final debe explicar por qué los recuerdos de esposa, prometida y otros vínculos incompatibles coexisten, sin invalidar arbitrariamente lo que el jugador experimentó.
+8. La identidad de la mujer, su destino y la relación exacta con la catástrofe permanecen sin resolver hasta que la dirección apruebe una explicación global.
+
 ## 13. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
 | 0.2 | Diseño aprobado parcialmente | Experiencia híbrida, CLU como jefe final y encuentros especiales, dos caminos, presencia interior ambigua y revelación progresiva |
 | 0.3 | Decisiones del protagonista aprobadas | Designación ECHO-0, diálogos con respuestas seleccionables y apariencia definida cinematográfica |
-| 0.4 | Núcleo de memoria aprobado | Dos líneas de recuerdos incompatibles, vida distinta y catástrofe recordada como punto de unión; verdad final aún abierta |
+| 0.4 | Núcleo de memoria aprobado | Dos líneas de recuerdos incompatibles, vida distinta y catástrofe recordada como punto de unión; verdad final aún abierta |\n| 0.5 | Vínculo afectivo y dilema moral | Mujer de relación ambigua (esposa, prometida u otro vínculo incompatible); conexión propuesta con la catástrofe y dilema entre una vida y muchas; explicación y consecuencias concretas pendientes |
 
 ---
 
