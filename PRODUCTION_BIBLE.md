@@ -1,5 +1,5 @@
 # NOCTRYX: SYSTEM COLLAPSE
-## Biblia de producción — versión 0.1
+## Biblia de producción — versión 0.4
 
 **Estado:** borrador de preproducción  
 **Nombre del proyecto:** NOCTRYX: SYSTEM COLLAPSE  
@@ -284,6 +284,7 @@ Estas decisiones requieren revisión y aprobación:
 | 0.1 | Borrador | Primera definición de visión, pilares, premisa, dirección audiovisual, alcance de demo y protocolo de colaboración |
 | 0.2 | Dirección narrativa aprobada parcialmente | Experiencia híbrida, CLU, rutas de retirada y verdad, presencia interior ambigua |
 | 0.3 | Protagonista definido a nivel conceptual | ECHO-0, diálogos con respuestas seleccionables y personaje cinematográfico definido |
+| 0.4 | Núcleo narrativo ampliado | Dos líneas de memoria incompatibles, mujer de vínculo ambiguo, dilema entre una vida y muchas y límite de revelación durante el Acto I |
 
 
 ## 17. Documentos de desarrollo ampliados — versión 0.2
@@ -313,5 +314,19 @@ La ficha visual definitiva, rasgos físicos, vestuario, tratamiento de voz y ani
 
 
 ---
+
+
+## 19. Estado de preproducción narrativa — cierre del Día 1
+
+La dirección ha aprobado como base narrativa:
+- ECHO-0 como designación inicial del protagonista.
+- Diálogos con respuestas seleccionables y personaje de presentación cinematográfica.
+- Dos líneas de recuerdos incompatibles: una vida distinta y NOCTRYX antes del colapso.
+- Una mujer emocionalmente importante cuyo vínculo con ECHO-0 aparece de forma contradictoria (esposa, prometida u otra relación aún no comprendida).
+- Una posible conexión entre esa mujer y la catástrofe recordada.
+- Un dilema temático entre intentar salvar a una persona o proteger a muchas, sin alineamiento moral simple.
+- Durante el Acto I, la mujer solo estará presente mediante recuerdos, grabaciones, mensajes y señales. La búsqueda directa y el camino para encontrarla quedan para una etapa posterior.
+
+**Pendiente antes de declarar cerrado el Día 1:** completar la ficha de dirección visual y audiovisual, concretar la estructura narrativa general del Acto I sin resolver el misterio, revisar consistencia de documentos y registrar los límites del alcance de la primera demo. Los puntos pendientes no deben confundirse con decisiones ya aprobadas.
 
 **Documento vivo:** actualizar esta Biblia cuando una decisión sea aprobada. Mantener las propuestas claramente diferenciadas de las funciones implementadas y del canon confirmado.
