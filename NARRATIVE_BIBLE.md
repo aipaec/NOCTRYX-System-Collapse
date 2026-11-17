@@ -1,7 +1,8 @@
 # NOCTRYX: SYSTEM COLLAPSE
-## Biblia narrativa — versión 0.2
+## Biblia narrativa — versión 0.4
 
-**Estado:** diseño narrativo en desarrollo  
+**Estado:** diseño narrativo en desarrollo
+**Última decisión aprobada:** recuerdos de dos realidades incompatibles vinculados a una catástrofe recordada  
 **Canon aprobado:** decisiones expresadas por la dirección del proyecto  
 **Pendiente:** nombres definitivos, cronología completa, motivaciones finales y desenlace detallado
 
@@ -411,12 +412,94 @@ Cada conversación importante debe documentarse con:
 Las respuestas iniciales pueden agruparse por intención —investigar, protegerse, confrontar, confiar, ocultar o guardar silencio—, pero esas categorías son etiquetas internas de diseño y no deben mostrarse como alineamientos morales al jugador.
 
 
+
+## 24. El recuerdo de dos realidades
+
+**Núcleo aprobado por la dirección:** ECHO-0 conserva recuerdos que parecen pertenecer a dos realidades distintas. Una parece corresponder a una vida ajena al entorno digital de NOCTRYX; la otra parece corresponder a una existencia dentro de este mundo y a un acontecimiento catastrófico. Ambas se sienten personales y auténticas, pero sus detalles no encajan.
+
+Esta decisión define el misterio inicial. **No confirma** que una realidad sea verdadera y la otra falsa, que ECHO-0 haya vivido dos vidas literalmente, ni que NOCTRYX sea una simulación. Esas explicaciones quedan abiertas.
+
+### 24.1 La primera línea de memoria: una vida distinta
+
+ECHO-0 recuerda fragmentos de una vida que parece cotidiana y físicamente diferente de NOCTRYX. No son recuerdos completos ni una biografía ordenada. Pueden incluir:
+- un lugar al que siente que pertenece;
+- una persona cuya voz reconoce emocionalmente, aunque no consiga recordar su nombre;
+- una conversación incompleta que parece importante;
+- un trayecto, una habitación o un objeto familiar;
+- una sensación de pérdida asociada a algo que no puede explicar.
+
+Los recuerdos deben ser concretos y emocionalmente consistentes. No deben parecer imágenes aleatorias utilizadas únicamente para confundir al jugador.
+
+### 24.2 La segunda línea de memoria: NOCTRYX antes del colapso
+
+ECHO-0 también parece recordar este mundo. Cree haber recorrido sectores, conocer ciertas estructuras y estar buscando una salida o intentando llegar a un punto específico.
+
+Dentro de esta línea aparece el recuerdo de una catástrofe: una falla expansiva, una alarma, estructuras que se desintegran y una urgencia por escapar o alcanzar algo antes de que desaparezca. El acontecimiento se presenta inicialmente como una experiencia recordada, no como una explicación objetiva del colapso.
+
+El protagonista no puede establecer con certeza si estuvo allí, si lo presenció directamente o si recibió ese recuerdo de otra fuente.
+
+### 24.3 La contradicción
+
+Las dos líneas no coinciden:
+- un recuerdo sitúa a ECHO-0 en un lugar que no existe en los mapas de NOCTRYX;
+- otro parece demostrar que conocía un sector antes de despertar, aunque los registros indiquen que nunca estuvo allí;
+- una persona de la vida distinta puede aparecer asociada a una entidad o señal de NOCTRYX, sin que eso demuestre que sean la misma;
+- fechas, secuencias o detalles físicos pueden resultar incompatibles.
+
+La narración no debe resolver estas contradicciones mediante un simple «todo era un sueño». Cada pista importante tendrá una explicación dentro de la verdad global, aunque el jugador pueda terminar con más de una interpretación razonable.
+
+### 24.4 La catástrofe recordada
+
+La catástrofe funciona como el punto de unión entre ambas líneas. ECHO-0 cree recordar que intentaba escapar de ella, pero los fragmentos no coinciden sobre qué estaba intentando salvar ni hacia dónde se dirigía.
+
+En un fragmento corre hacia una salida. En otro parece regresar para buscar a alguien. En otro, la alarma se activa antes de que ocurra aquello que recuerda como causa del desastre.
+
+Estas diferencias no deben presentarse todas al comienzo. Se revelarán gradualmente mediante escenas breves, registros, conversaciones, lugares y decisiones del jugador.
+
+### 24.5 Reglas de presentación
+
+- Introducir primero recuerdos sensoriales y emocionales; explicar después su posible contexto.
+- Evitar largos flashbacks explicativos en las primeras horas.
+- Repetir algunos detalles —una frase, sonido, objeto o composición visual— en ambas líneas, pero con variaciones que el jugador pueda reconocer.
+- Mantener una distinción entre recuerdo subjetivo, registro verificable e interpretación.
+- No etiquetar las dos líneas como «real» y «falsa».
+- Permitir que las respuestas seleccionables de ECHO-0 expresen confianza, rechazo, curiosidad o miedo ante los recuerdos.
+- La presencia interior puede cuestionar la certeza del protagonista, pero no debe entregar la solución.
+- CLU puede conocer fragmentos o afirmar que conoce el origen de ECHO-0; sus palabras deben verificarse mediante pistas independientes.
+
+### 24.6 Ejemplo de primera contradicción
+
+**Recuerdo fragmentario:** una habitación cálida, lluvia golpeando una ventana y una voz que dice: «No tardes esta vez».
+
+**Corte:** ECHO-0 abre los ojos en un corredor de NOCTRYX. Un altavoz dañado reproduce exactamente la misma frase, pero la atribuye a un registro de evacuación anterior al colapso.
+
+**ECHO-0:** Esa voz... la conozco.
+
+**PRESENCIA:** ¿De dónde?
+
+Respuestas posibles:
+1. «De antes de llegar aquí.»
+2. «No lo sé. Pero no debería estar en este lugar.»
+3. «No voy a seguir escuchando.»
+
+Ninguna opción confirma el origen de la voz. La elección puede determinar el tono de la siguiente intervención y quedar registrada para una confrontación posterior.
+
+### 24.7 Pregunta que sostiene el misterio
+
+El jugador no debe preguntarse únicamente «¿cuál de estos recuerdos es verdadero?», sino también:
+
+**«¿Por qué dos vidas incompatibles se sienten como si ambas fueran mías?»**
+
+La respuesta final debe explicar la relación entre las dos líneas, la catástrofe y la identidad de ECHO-0. La naturaleza exacta de esa relación sigue pendiente de diseño y aprobación.
+
+
 ## 13. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
 | 0.2 | Diseño aprobado parcialmente | Experiencia híbrida, CLU como jefe final y encuentros especiales, dos caminos, presencia interior ambigua y revelación progresiva |
 | 0.3 | Decisiones del protagonista aprobadas | Designación ECHO-0, diálogos con respuestas seleccionables y apariencia definida cinematográfica |
+| 0.4 | Núcleo de memoria aprobado | Dos líneas de recuerdos incompatibles, vida distinta y catástrofe recordada como punto de unión; verdad final aún abierta |
 
 ---
 
