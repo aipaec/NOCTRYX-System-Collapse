@@ -346,6 +346,85 @@ La aceptación requiere evidencia de compilación y pruebas realizadas. Una revi
 - Localización y gestión de textos.
 - Alcance realista de la primera demo.
 
+
+## 20. Modelo técnico de identidad y memoria narrativa
+
+**Estado:** propuesta de diseño; no implementada.
+
+El estado narrativo debe registrar hechos jugables y decisiones concretas, no almacenar una única explicación de la historia. Se recomienda separar:
+
+### 20.1 Datos del protagonista
+- designación temporal mostrada;
+- identificador interno estable de partida;
+- recuerdos recuperados;
+- pistas observadas;
+- interpretación actual, si el diseño decide mostrarla.
+
+La designación temporal no debe confundirse con la identidad verdadera. La identidad real no se guarda como un dato revelado al inicio.
+
+### 20.2 Registro de evidencias
+Cada pista importante debe tener un identificador único y metadatos:
+- origen (registro, entidad, escena, recuerdo);
+- acto o sector;
+- momento en que se descubrió;
+- contenido observado;
+- interpretación inicial opcional;
+- contradicciones relacionadas;
+- escenas que puede desbloquear.
+
+El sistema registra qué vio el jugador. No debe marcar una hipótesis como verdadera solo porque un personaje la afirmó.
+
+### 20.3 Registro de decisiones
+Cada elección relevante debe almacenar:
+- identificador de decisión;
+- opción elegida;
+- contexto o escena;
+- consecuencias inmediatas aplicadas;
+- condiciones diferidas;
+- pruebas y diálogos que puede habilitar.
+
+Evitar un valor global de «bondad», «cordura» o «maldad» como sustituto de decisiones específicas. Si en el futuro se añade una variable abstracta, deberá complementar y no reemplazar el registro de elecciones.
+
+### 20.4 Apariciones de la presencia interior
+Registrar por separado:
+- aparición vista;
+- contexto que la activó;
+- línea o escena reproducida;
+- pistas que el protagonista ya conocía;
+- decisión asociada;
+- estado de progresión narrativa.
+
+Esto permite que la presencia recuerde elecciones pasadas sin otorgarle conocimiento arbitrario.
+
+### 20.5 Reglas de coherencia y pruebas
+El contenido narrativo debe poder comprobarse mediante escenarios:
+- una línea no hace referencia a una pista que el jugador aún no descubrió, salvo justificación explícita;
+- una decisión previa produce la consecuencia prevista;
+- una pista contradictoria no borra el hecho de que el jugador vio la versión anterior;
+- las escenas no se repiten indebidamente;
+- la retirada cierra la ruta sin desbloquear por error las pruebas finales o el combate final de CLU;
+- la ruta difícil requiere condiciones verificables para habilitar el clímax.
+
+### 20.6 Separación entre datos y guion
+Los identificadores de decisiones, pistas y escenas deben ser estables y no depender del texto visible. Los diálogos pueden revisarse o localizarse sin romper el progreso guardado.
+
+## 21. Propuesta de hitos narrativos programables
+
+| Hito | Evento | Estado que debe registrarse |
+|---|---|---|
+| N-01 | Despertar | Inicio de sesión narrativa y primera escena |
+| N-02 | Primera anomalía | Pista descubierta y sector asociado |
+| N-03 | Primera intervención interior | Aparición y contexto |
+| N-04 | Contradicción verificable | Dos evidencias relacionadas |
+| N-05 | Encuentro especial con CLU | Manifestación vista y resultado |
+| N-06 | Gran elección | Ruta elegida, sin ambigüedad |
+| N-07A | Retirada | Final alternativo y jefe final bloqueado |
+| N-07B | Aceptación de pruebas | Ruta difícil y pruebas habilitadas |
+| N-08 | Confrontación final | Condiciones de acceso y resultado de CLU |
+
+Los hitos son identificadores de planificación, no nombres definitivos de clases ni una orden de implementación.
+
+
 ## 19. Registro de versiones
 
 | Versión | Estado | Cambios |
