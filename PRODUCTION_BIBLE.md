@@ -282,6 +282,8 @@ Estas decisiones requieren revisión y aprobación:
 | Versión | Estado | Cambios |
 |---|---|---|
 | 0.1 | Borrador | Primera definición de visión, pilares, premisa, dirección audiovisual, alcance de demo y protocolo de colaboración |
+| 0.2 | Dirección narrativa aprobada parcialmente | Experiencia híbrida, CLU, rutas de retirada y verdad, presencia interior ambigua |
+| 0.3 | Protagonista definido a nivel conceptual | ECHO-0, diálogos con respuestas seleccionables y personaje cinematográfico definido |
 
 
 ## 17. Documentos de desarrollo ampliados — versión 0.2
@@ -299,6 +301,15 @@ La versión 0.2 incorpora como decisiones aprobadas:
 - Presencia interior vinculada a la mente del protagonista, de identidad ambigua y revelación gradual mediante decisiones y pruebas.
 
 Estos documentos amplían el diseño; no significan que los sistemas estén implementados. Las decisiones todavía pendientes permanecen identificadas como propuestas.
+
+## 18. Decisiones aprobadas del protagonista — versión 0.3
+
+La dirección del proyecto aprobó las siguientes decisiones para ECHO-0:
+- **Designación:** ECHO-0. Es la identificación inicial, no una confirmación de su identidad verdadera.
+- **Comunicación:** el protagonista tendrá diálogos y el jugador seleccionará sus respuestas. Las elecciones podrán modificar el tono, la información disponible y consecuencias posteriores.
+- **Apariencia:** personaje definido de enfoque cinematográfico; no será un avatar completamente personalizable.
+
+La ficha visual definitiva, rasgos físicos, vestuario, tratamiento de voz y animaciones siguen pendientes de diseño. La aprobación conceptual no equivale a recursos gráficos o sistemas implementados.
 
 
 ---
