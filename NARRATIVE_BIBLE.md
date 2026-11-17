@@ -19,7 +19,7 @@ NOCTRYX: SYSTEM COLLAPSE es una experiencia de ciencia ficción oscura, explorac
 
 **Pregunta dramática:** ¿vale la pena descubrir quién eres si el conocimiento exige atravesar pruebas, asumir consecuencias y cuestionar todo lo que creías?
 
-## 2. Canon aprobado hasta la versión 0.2
+## 2. Canon aprobado hasta la versión 0.3
 
 Las siguientes decisiones fueron aprobadas por la dirección del proyecto:
 
@@ -31,6 +31,9 @@ Las siguientes decisiones fueron aprobadas por la dirección del proyecto:
 4. Existirá un antagonista especial relacionado con la mente del protagonista.
 5. La naturaleza de ese antagonista será ambigua. El protagonista cree en su propia realidad, pero encuentra indicios que le hacen dudar.
 6. La revelación se desarrollará progresivamente mediante decisiones, pruebas y contradicciones; no habrá una explicación total al comienzo.
+7. La designación inicial aprobada del protagonista es **ECHO-0**. Es una designación conocida al comienzo, no necesariamente su identidad o nombre verdadero.
+8. El protagonista tendrá **diálogos con respuestas seleccionables** por el jugador. Las opciones expresarán distintas posturas y podrán afectar relaciones, información y consecuencias; no deben reducirse a una escala simple de bueno o malo.
+9. El protagonista tendrá una **apariencia definida y cinematográfica**, no un avatar completamente personalizable. Su diseño visual deberá ser consistente entre escenas, interfaz y material promocional.
 
 ## 3. Premisa del mundo
 
@@ -312,19 +315,108 @@ La escena debe ser breve y dejar una pregunta abierta. No debe explicar el miste
 
 ## 20. Pendientes específicos del protagonista
 
-- Aprobar o descartar la designación temporal ECHO-0.
-- Definir presentación visual y grado de personalización.
-- Decidir si el protagonista habla con voz propia o si el jugador interpreta sus respuestas.
-- Definir qué acontecimiento cree recordar al despertar.
+- Definir el acontecimiento que cree recordar al despertar.
 - Establecer la verdad objetiva detrás de los recuerdos contradictorios.
 - Determinar qué sabe CLU y qué solo pretende saber.
 - Definir si la presencia interior puede aparecer fuera de pruebas y escenas narrativas.
+- Diseñar rasgos físicos, vestuario, silueta, animación y lenguaje corporal definitivos.
+- Decidir el tratamiento de voz y las opciones de accesibilidad.
+
+
+## 21. Decisiones aprobadas del protagonista
+
+**Estado:** canon aprobado por la dirección del proyecto.
+
+### 21.1 Designación: ECHO-0
+
+ECHO-0 es la designación que identifica al protagonista al inicio. Puede aparecer en registros, interfaces, comunicaciones de entidades y archivos del sistema. No debe tratarse como prueba de que el protagonista sea una inteligencia artificial, una copia o un experimento. Esas posibilidades permanecen abiertas.
+
+La historia debe distinguir entre:
+- **Designación conocida:** ECHO-0.
+- **Identidad que el protagonista cree tener:** todavía por desarrollar.
+- **Identidad verdadera:** misterio central pendiente de revelación.
+
+### 21.2 Comunicación: diálogos con respuestas seleccionables
+
+El protagonista participa activamente en conversaciones. El jugador selecciona respuestas que expresan su postura ante los acontecimientos.
+
+Principios:
+- Las opciones deben sonar como frases que el protagonista realmente podría decir.
+- Evitar opciones que revelen información que el personaje todavía no conoce.
+- Las respuestas pueden cambiar el tono, la confianza, la información obtenida o consecuencias posteriores.
+- No todas las respuestas necesitan crear una rama argumental completamente distinta.
+- No mostrar una opción como moralmente correcta por medio de colores, etiquetas o juicios del narrador.
+- El silencio puede aparecer como una opción contextual, pero no sustituye el sistema principal de diálogo.
+- Las decisiones importantes deben quedar registradas para que la presencia interior y otros personajes puedan referirse a ellas más adelante.
+
+### 21.3 Apariencia: personaje definido cinematográfico
+
+ECHO-0 tendrá un diseño visual estable y reconocible. No será un avatar de personalización libre. La dirección de arte deberá definir su silueta, rostro, vestuario, materiales, iluminación y lenguaje corporal en una ficha visual posterior.
+
+La apariencia debe permitir transmitir vulnerabilidad, determinación, extrañeza y evolución emocional mediante postura, mirada y animación.
+
+No se fija todavía género, edad, rasgos faciales ni vestuario definitivo. Esos elementos requieren diseño y aprobación visual.
+
+## 22. Apertura narrativa — secuencia de referencia
+
+**Estado:** propuesta de escena; pendiente de revisión de tono y producción.
+
+### Escena 01 — Señal de inicio
+
+**Imagen:** oscuridad casi total. Se escucha una señal electrónica irregular. Fragmentos de luz cian aparecen y desaparecen como si una interfaz intentara reconstruirse. No se muestra todavía el rostro completo del protagonista.
+
+**Sistema:** IDENTIDAD NO VERIFICADA
+
+**Sistema:** DESIGNACIÓN: ECHO-0
+
+**ECHO-0:** ¿Dónde estoy?
+
+**Sistema:** SECTOR: NO DISPONIBLE
+
+**ECHO-0:** No recuerdo haber entrado aquí.
+
+Una pausa. La señal vuelve a escucharse, esta vez con una segunda frecuencia ligeramente desfasada.
+
+**Presencia:** ¿Estás seguro?
+
+El jugador recibe una primera respuesta seleccionable:
+
+1. **«¿Quién está ahí?»** — busca identificar la voz.
+2. **«Necesito encontrar una salida.»** — prioriza la supervivencia.
+3. **«¿Por qué no recuerdo nada?»** — se centra en la memoria.
+
+Las tres respuestas continúan hacia la exploración inicial, pero establecen el primer registro de actitud. Ninguna confirma qué es la presencia ni revela la identidad de ECHO-0.
+
+### Escena 02 — Primer contacto con el entorno
+
+ECHO-0 recupera movilidad y observa un sector dañado. Un registro cercano muestra actividad anterior a la hora que el protagonista considera su despertar.
+
+El jugador puede examinar el registro o continuar hacia la salida visible. Examinarlo concede una pista; ignorarlo no bloquea la historia principal, pero puede alterar qué información estará disponible en una conversación posterior.
+
+**Objetivo dramático:** presentar una anomalía comprobable sin explicarla. El jugador debe tener motivos para sospechar, pero no suficientes para formular una conclusión definitiva.
+
+## 23. Reglas para las respuestas seleccionables
+
+Cada conversación importante debe documentarse con:
+- identificador único de escena y nodo;
+- contexto y participantes;
+- texto pronunciado;
+- opciones disponibles;
+- condiciones para mostrar cada opción;
+- registro de la opción elegida;
+- efecto inmediato;
+- posibles consecuencias diferidas;
+- siguiente nodo o escena.
+
+Las respuestas iniciales pueden agruparse por intención —investigar, protegerse, confrontar, confiar, ocultar o guardar silencio—, pero esas categorías son etiquetas internas de diseño y no deben mostrarse como alineamientos morales al jugador.
+
 
 ## 13. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
 | 0.2 | Diseño aprobado parcialmente | Experiencia híbrida, CLU como jefe final y encuentros especiales, dos caminos, presencia interior ambigua y revelación progresiva |
+| 0.3 | Decisiones del protagonista aprobadas | Designación ECHO-0, diálogos con respuestas seleccionables y apariencia definida cinematográfica |
 
 ---
 
