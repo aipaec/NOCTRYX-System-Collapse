@@ -472,11 +472,68 @@ El sistema debe permitir que:
 - La implementación futura debe permitir revisar qué fragmentos vio el jugador y en qué orden.
 
 
+
+## 23. Modelo técnico del vínculo ambiguo y las decisiones de sacrificio
+
+**Estado:** propuesta técnica; no implementada. Depende de la dirección narrativa aprobada para la ambigüedad del vínculo y el dilema individual/colectivo.
+
+### 23.1 Recuerdos relacionales sin verdad prematura
+
+No almacenar la relación de ECHO-0 con la mujer como un único campo definitivo (por ejemplo, `Relationship = Wife`). Cada recuerdo debe conservar su propia afirmación o perspectiva:
+- identificador del recuerdo;
+- persona o entidad referida, si puede identificarse;
+- vínculo que el fragmento parece describir (esposa, prometida, otro/no determinado);
+- fuente del recuerdo;
+- integridad y contexto;
+- evidencias que lo apoyan o contradicen;
+- momento en que el jugador lo descubrió.
+
+El estado global registra qué versiones conoce el jugador, no cuál es verdadera. La resolución futura deberá depender de evidencias y condiciones narrativas explícitas, no de sobrescribir los recuerdos anteriores.
+
+### 23.2 Decisión de una vida frente a muchas
+
+La elección debe modelarse como una decisión narrativa identificable, no como una suma de puntos morales. El registro debe incluir:
+- escena y contexto;
+- opciones que realmente estaban disponibles;
+- información presentada al jugador;
+- opción elegida;
+- consecuencias inmediatas;
+- consecuencias diferidas;
+- personajes, sectores y recursos afectados;
+- evidencias o rutas que se habilitan o bloquean.
+
+La alternativa de buscar una tercera salida solo debe aparecer si se cumplen condiciones explícitas, como haber descubierto una pista, conservar un recurso o completar una acción previa. No debe aparecer por una tirada aleatoria que haga imposible reproducir el resultado.
+
+### 23.3 Consecuencias persistentes
+
+Los sistemas de narrativa, exploración, encuentros y objetivos deben consultar el resultado de la decisión mediante identificadores estables. No deben inferirlo leyendo el texto del diálogo.
+
+Ejemplos de efectos futuros posibles:
+- un personaje recuerda a quién protegió ECHO-0;
+- una comunidad cambia su nivel de confianza;
+- un sector queda accesible, bloqueado o transformado;
+- un testimonio o recuerdo posterior ofrece una perspectiva distinta;
+- la presencia interior confronta al protagonista con la decisión y sus motivos expresados.
+
+### 23.4 Sin alineamiento moral global
+
+No implementar una variable única de «héroe/villano», «bueno/malo» o karma como sustituto de las decisiones. Si en el futuro se necesita una clasificación para un sistema concreto, debe derivarse de hechos específicos y nunca borrar el contexto de cada elección.
+
+### 23.5 Pruebas de aceptación futuras
+
+- Los recuerdos incompatibles sobre el vínculo pueden coexistir sin sobrescribirse.
+- El jugador puede descubrirlos en distinto orden sin romper la continuidad.
+- El diálogo no afirma una relación como verdad confirmada antes de que la historia lo justifique.
+- Cada opción de la decisión individual/colectiva aplica consecuencias reproducibles.
+- Una tercera alternativa solo aparece al cumplir condiciones documentadas.
+- Las escenas posteriores reflejan la elección correcta sin consultar un marcador moral global.
+- Los finales y rutas existentes siguen funcionando aunque el jugador no haya descubierto todos los recuerdos.
+
 ## 19. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
-| 0.1 | Propuesta técnica | Arquitectura lógica, estado de partida, encuentros, inventario, decisiones narrativas, finales y migración incremental |
+| 0.1 | Propuesta técnica | Arquitectura lógica, estado de partida, encuentros, inventario, decisiones narrativas, finales y migración incremental |\n| 0.2 | Memoria relacional y decisiones persistentes | Registro de recuerdos con vínculos incompatibles y modelo de decisión individual/colectiva sin alineamiento moral global |
 
 ---
 
