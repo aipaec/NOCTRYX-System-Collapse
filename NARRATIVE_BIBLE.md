@@ -1,8 +1,8 @@
 # NOCTRYX: SYSTEM COLLAPSE
-## Biblia narrativa — versión 0.5
+## Biblia narrativa — versión 0.6
 
 **Estado:** diseño narrativo en desarrollo
-**Última decisión aprobada:** recuerdos de dos realidades incompatibles, vínculo afectivo ambiguo y dilema moral entre salvar a una persona o a muchas  
+**Última decisión aprobada:** recuerdos de dos realidades incompatibles, vínculo afectivo ambiguo, dilema moral y ausencia física de la mujer durante el Acto I  
 **Canon aprobado:** decisiones expresadas por la dirección del proyecto  
 **Pendiente:** nombres definitivos, cronología completa, motivaciones finales y desenlace detallado
 
@@ -585,13 +585,43 @@ CLU no debe ser simplemente «el villano que sacrifica a todos» ni ECHO-0 «el 
 7. La verdad final debe explicar por qué los recuerdos de esposa, prometida y otros vínculos incompatibles coexisten, sin invalidar arbitrariamente lo que el jugador experimentó.
 8. La identidad de la mujer, su destino y la relación exacta con la catástrofe permanecen sin resolver hasta que la dirección apruebe una explicación global.
 
+
+## 30. Límite de revelación del Acto I — la mujer ausente
+
+**Estado:** decisión aprobada por la dirección del proyecto.
+
+Durante el Acto I, la mujer vinculada a los recuerdos de ECHO-0 no aparecerá físicamente ni será encontrada directamente. Su presencia narrativa se limitará a:
+- recuerdos fragmentarios;
+- grabaciones de audio, mensajes o comunicaciones;
+- señales y patrones que ECHO-0 asocia con ella;
+- registros y pistas indirectas que pueden contradecirse.
+
+El Acto I no confirmará si está viva, muerta, desaparecida, dentro de NOCTRYX o fuera de él. Tampoco confirmará la naturaleza definitiva de su relación con ECHO-0.
+
+La posibilidad de seguir una señal o investigar un camino que conduzca hasta ella podrá presentarse como objetivo o pista, pero **la búsqueda directa y la exploración de ese camino quedan reservadas para una etapa posterior**. El jugador debe terminar el Acto I con preguntas y motivación para continuar, no con un encuentro que resuelva prematuramente el misterio.
+
+### 30.1 Función dramática en el Acto I
+
+La mujer debe sentirse importante por la acumulación de detalles concretos y por la reacción emocional de ECHO-0, no por exposición explicativa. Las pistas deben permitir varias interpretaciones razonables y conservar su contexto para futuras revelaciones.
+
+### 30.2 Restricciones
+
+- No mostrarla físicamente en el Acto I.
+- No presentar una grabación como prueba concluyente de su destino.
+- No confirmar que la señal provenga de ella.
+- No convertir cada recuerdo en una pista directa; algunos deben desarrollar vínculo y emoción.
+- No permitir que el jugador llegue todavía al lugar donde supuestamente se encuentra.
+- Mantener abierta la posibilidad de que los recuerdos de esposa, prometida y otros vínculos incompatibles tengan una explicación más compleja.
+
 ## 13. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
 | 0.2 | Diseño aprobado parcialmente | Experiencia híbrida, CLU como jefe final y encuentros especiales, dos caminos, presencia interior ambigua y revelación progresiva |
 | 0.3 | Decisiones del protagonista aprobadas | Designación ECHO-0, diálogos con respuestas seleccionables y apariencia definida cinematográfica |
-| 0.4 | Núcleo de memoria aprobado | Dos líneas de recuerdos incompatibles, vida distinta y catástrofe recordada como punto de unión; verdad final aún abierta |\n| 0.5 | Vínculo afectivo y dilema moral | Mujer de relación ambigua (esposa, prometida u otro vínculo incompatible); conexión propuesta con la catástrofe y dilema entre una vida y muchas; explicación y consecuencias concretas pendientes |
+| 0.4 | Núcleo de memoria aprobado | Dos líneas de recuerdos incompatibles, vida distinta y catástrofe recordada como punto de unión; verdad final aún abierta |
+| 0.5 | Vínculo afectivo y dilema moral | Mujer de relación ambigua (esposa, prometida u otro vínculo incompatible); conexión propuesta con la catástrofe y dilema entre una vida y muchas; explicación y consecuencias concretas pendientes |
+| 0.6 | Límite narrativo del Acto I | La mujer solo aparece mediante recuerdos, grabaciones, mensajes y señales; su búsqueda directa queda reservada para una etapa posterior |
 
 ---
 
