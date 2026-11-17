@@ -425,6 +425,53 @@ Los identificadores de decisiones, pistas y escenas deben ser estables y no depe
 Los hitos son identificadores de planificación, no nombres definitivos de clases ni una orden de implementación.
 
 
+
+## 22. Modelo de recuerdos de dos realidades
+
+**Estado:** requisito narrativo aprobado; arquitectura propuesta, no implementada.
+
+El sistema narrativo debe poder registrar recuerdos que el protagonista atribuye a dos líneas distintas sin decidir automáticamente cuál es objetiva. Se propone ampliar el registro de evidencias con los siguientes campos conceptuales:
+
+- identificador estable del recuerdo;
+- línea de memoria: vida distinta, NOCTRYX antes del colapso o sin clasificar;
+- formato: imagen, sonido, diálogo, sensación, escena o registro;
+- contenido percibido por el protagonista;
+- contexto en que aparece;
+- grado de integridad del fragmento;
+- pistas externas que lo corroboran o contradicen;
+- interpretación expresada por ECHO-0, si existe;
+- decisiones del jugador relacionadas.
+
+### 22.1 Regla de separación
+
+El sistema no debe almacenar un booleano simplista como «recuerdo verdadero/falso». Debe conservar por separado:
+- el recuerdo experimentado;
+- la evidencia externa disponible;
+- las contradicciones conocidas;
+- la interpretación actual del protagonista.
+
+Así, una escena posterior puede reinterpretar un recuerdo sin borrar el hecho de que el jugador lo experimentó.
+
+### 22.2 Catástrofe recordada
+
+La catástrofe debe modelarse como una secuencia de fragmentos relacionados, no como una única cinemática que revela todo. Los fragmentos pueden tener orden parcial, datos ausentes y versiones que parecen incompatibles.
+
+El sistema debe permitir que:
+- el jugador encuentre fragmentos fuera de orden;
+- algunos recuerdos se activen por ubicación, diálogo o decisión;
+- la presencia interior reaccione a recuerdos ya experimentados;
+- las pistas del mundo contrasten con la memoria subjetiva;
+- las respuestas seleccionables registren la postura de ECHO-0.
+
+### 22.3 Validaciones narrativas
+
+- Ningún diálogo debe tratar una interpretación como verdad confirmada sin evidencia narrativa.
+- Una pista que contradice un recuerdo no debe eliminarlo del historial.
+- La misma señal, frase u objeto puede aparecer en ambas líneas con diferencias deliberadas.
+- Las rutas de retirada y verdad deben seguir siendo válidas aunque el jugador haya descubierto pocos recuerdos.
+- La implementación futura debe permitir revisar qué fragmentos vio el jugador y en qué orden.
+
+
 ## 19. Registro de versiones
 
 | Versión | Estado | Cambios |
