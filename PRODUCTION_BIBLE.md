@@ -283,6 +283,24 @@ Estas decisiones requieren revisión y aprobación:
 |---|---|---|
 | 0.1 | Borrador | Primera definición de visión, pilares, premisa, dirección audiovisual, alcance de demo y protocolo de colaboración |
 
+
+## 17. Documentos de desarrollo ampliados — versión 0.2
+
+La dirección narrativa y la arquitectura técnica se desarrollan en documentos complementarios:
+
+- [Biblia narrativa](NARRATIVE_BIBLE.md): decisiones aprobadas sobre experiencia híbrida, CLU, los dos caminos, la presencia interior vinculada a la mente del protagonista y la revelación progresiva.
+- [Diseño técnico](TECHNICAL_DESIGN.md): arquitectura lógica objetivo, estado de partida, exploración, encuentros, combate, inventario, decisiones, finales y migración incremental.
+
+La versión 0.2 incorpora como decisiones aprobadas:
+- Experiencia híbrida de exploración y encuentros.
+- CLU como jefe final del camino difícil y figura de encuentros especiales.
+- Camino fácil de retirada, con supervivencia pero sin descubrir la identidad del protagonista.
+- Camino difícil con pruebas progresivas y acceso al enfrentamiento final.
+- Presencia interior vinculada a la mente del protagonista, de identidad ambigua y revelación gradual mediante decisiones y pruebas.
+
+Estos documentos amplían el diseño; no significan que los sistemas estén implementados. Las decisiones todavía pendientes permanecen identificadas como propuestas.
+
+
 ---
 
 **Documento vivo:** actualizar esta Biblia cuando una decisión sea aprobada. Mantener las propuestas claramente diferenciadas de las funciones implementadas y del canon confirmado.
