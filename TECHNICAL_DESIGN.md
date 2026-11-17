@@ -1,5 +1,5 @@
 # NOCTRYX: SYSTEM COLLAPSE
-## Diseño técnico — versión 0.1
+## Diseño técnico — versión 0.3
 
 **Estado:** arquitectura objetivo y especificación inicial  
 **Base heredada auditada:** C#/.NET, Windows Forms, NexusCore, NexusGUI y ConsoleApp3  
@@ -529,11 +529,41 @@ No implementar una variable única de «héroe/villano», «bueno/malo» o karma
 - Las escenas posteriores reflejan la elección correcta sin consultar un marcador moral global.
 - Los finales y rutas existentes siguen funcionando aunque el jugador no haya descubierto todos los recuerdos.
 
+
+## 24. Límite de contenido y progresión del Acto I
+
+**Estado:** requisito narrativo aprobado; especificación técnica propuesta, no implementada.
+
+Durante el Acto I, la mujer relacionada con los recuerdos de ECHO-0 no debe instanciarse como personaje presente ni habilitarse un encuentro directo. Su presencia se representa mediante contenido indirecto:
+- fragmentos de memoria;
+- grabaciones, mensajes y comunicaciones;
+- señales y patrones de origen no confirmado;
+- registros o evidencias relacionadas.
+
+El sistema narrativo debe distinguir entre:
+- `MemoryFragment`: recuerdo subjetivo experimentado por ECHO-0;
+- `RecordingEvidence`: grabación reproducible cuyo origen y autenticidad pueden seguir pendientes;
+- `SignalClue`: señal detectada, con origen no confirmado;
+- `SearchLead`: pista que sugiere una posible ruta futura, sin habilitar todavía el acceso.
+
+Una pista de búsqueda puede registrarse como descubierta sin que la ruta de exploración esté desbloqueada. El desbloqueo deberá depender de un hito de acto posterior, no de que el jugador repita una interacción o encuentre accidentalmente una salida.
+
+### 24.1 Validaciones futuras
+
+- No aparece un modelo o escena de encuentro físico con la mujer durante el Acto I.
+- Las grabaciones y señales no confirman automáticamente identidad ni destino.
+- El jugador puede descubrir las pistas en distinto orden.
+- La búsqueda directa permanece bloqueada hasta el hito narrativo aprobado para una etapa posterior.
+- El historial conserva qué recuerdos, grabaciones y señales descubrió el jugador.
+- El cierre del Acto I deja una motivación clara para continuar sin resolver el misterio.
+
 ## 19. Registro de versiones
 
 | Versión | Estado | Cambios |
 |---|---|---|
-| 0.1 | Propuesta técnica | Arquitectura lógica, estado de partida, encuentros, inventario, decisiones narrativas, finales y migración incremental |\n| 0.2 | Memoria relacional y decisiones persistentes | Registro de recuerdos con vínculos incompatibles y modelo de decisión individual/colectiva sin alineamiento moral global |
+| 0.1 | Propuesta técnica | Arquitectura lógica, estado de partida, encuentros, inventario, decisiones narrativas, finales y migración incremental |
+| 0.2 | Memoria relacional y decisiones persistentes | Registro de recuerdos con vínculos incompatibles y modelo de decisión individual/colectiva sin alineamiento moral global |
+| 0.3 | Límite de progresión del Acto I | Representación indirecta de la mujer mediante recuerdos, grabaciones y señales; bloqueo del encuentro y búsqueda directa hasta una etapa posterior |
 
 ---
 
