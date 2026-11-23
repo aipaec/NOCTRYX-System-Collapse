@@ -73,17 +73,48 @@ La estructura de carpetas se definirá después de auditar el repositorio y el p
 
 - [Biblia de producción](PRODUCTION_BIBLE.md): visión, pilares, premisa narrativa, dirección artística y plan de producción.
 
+## Estado de la demo — 23 de noviembre de 2026
+
+**Estado de desarrollo reportado:** demo 2D jugable en C# con Windows Forms (.NET 10), desarrollada localmente a partir del proyecto NEXUS. Esta descripción refleja las pruebas manuales realizadas en el equipo de desarrollo; **el código fuente de la demo todavía no está publicado en este repositorio**.
+
+### Funcionalidades de la demo local
+
+- Protagonista ECHO-0: movimiento lateral, salto, gravedad y colisiones con plataformas.
+- Dos escenarios jugables: ciudad industrial en colapso y realidad dimensional inestable.
+- Dos tipos de enemigos: Centinela y Anomalía.
+- Ataque con J, daño, alcance y tiempo de reutilización; integridad del jugador y enemigos.
+- Cámara de seguimiento, interfaz de juego, menú, pausa y reinicio.
+- Introducción narrativa, transiciones de mapa, interacción con la SEÑAL y final de la demo.
+- Audio ambiental integrado en la versión local.
+
+### Arquitectura local
+
+- `Program.cs`: punto de entrada y secuencia inicial.
+- `IntroForm`: introducción de la aplicación.
+- `GamePrototypeForm`: formulario anfitrión del juego y coordinación de audio.
+- `GameSurface`: control personalizado para actualización, dibujo y sistemas de jugabilidad.
+- `AudioManager`: reproducción y gestión de recursos de audio.
+- Proyectos heredados: `NexusGUI`, `NexusCore` y `ConsoleApp3`.
+
+### Validación y pendientes
+
+Se reportó una prueba manual satisfactoria de movimiento, plataformas, cámara, reinicio, puerta final y recorrido de ambos mapas hasta el cierre narrativo. Esto **no equivale** a una compilación automatizada del contenido publicado aquí.
+
+**Pendiente crítico para la entrega:** sincronizar la solución y los archivos fuente locales con este repositorio, excluir carpetas generadas (`bin/`, `obj/`, `.vs/`) y revisar rutas absolutas y licencias de recursos antes de compartir una versión reproducible. No subir archivos de música comercial sin permiso.
+
+La documentación de diseño existente describe también ideas y planes futuros; no debe interpretarse íntegramente como funcionalidad implementada.
+
 ## Estado del proyecto
 
-**Etapa actual:** preproducción y auditoría del prototipo heredado.
+**Etapa actual:** demo local jugable, pendiente de publicación del código fuente en GitHub.
 
 - [x] Repositorio de NOCTRYX creado.
 - [x] README inicial publicado.
 - [ ] Biblia de producción revisada y aprobada.
-- [ ] Auditoría técnica del prototipo.
-- [ ] Alcance y prioridades de la demo definidos.
+- [x] Auditoría técnica del prototipo realizada mediante revisión de código.
+- [x] Alcance y prioridades de la demo definidos.
 - [ ] Identidad visual y sonora desarrollada.
-- [ ] Demo vertical integrada y probada.
+- [x] Demo local integrada y probada manualmente (código aún no publicado aquí).
 - [ ] Documentación y evidencias de entrega.
 
 ---
